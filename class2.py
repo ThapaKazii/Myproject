@@ -1,0 +1,7 @@
+input("Enter your name please")
+int(input("Enter your age"))
+a=int(input("Enter the first number  "))
+b=int(input("Enter the second number  "))
+print("The product is ", int(a*b))
+print("The sum is ", int(a+b))
+print("The division is ", int(a/b))
