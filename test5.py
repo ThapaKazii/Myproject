@@ -4,7 +4,7 @@ name = str(input("Enter the name: "))
 string = input("Enter the string to be counted: ")
 upper=string.upper()
 lower=string.lower()
-a=(name.count(upper))
-b=name.count(lower)
-total=a+b
+big=(name.count(upper))
+small=name.count(lower)
+total=big+small
 print("The total number of %c is : " %string, total)
